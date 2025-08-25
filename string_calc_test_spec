@@ -1,0 +1,75 @@
+Test Case 1 
+------------------------
+Empty String -> returns 0
+Input : ""
+Expected output : 0
+
+************************
+
+Test Case 2 
+------------------------
+String with single number -> returns the number itself
+Input : "1"
+Expected output : 1
+
+Input : "100"
+Expected output : 100
+
+************************
+
+Test Case 3 
+------------------------
+String with two Numbers -> returns sum of the 2 numbers
+Input : "2,3"
+Expected output : 5
+
+************************
+
+Test Case 4 
+------------------------
+String with 'n' Numbers -> returns sum of the 'n' numbers
+Input : "2,3,4,5"
+Expected output : 14
+
+************************
+
+Test Case 5 
+------------------------
+New Line as delimiter
+Input : "2\n3,4"
+Expected output : 9
+
+************************
+
+Test Case 6 
+------------------------
+Custom Delimiter
+Input : "//;\n1;2"
+Expected output : 3
+
+Input : "//[***]\n4***5"
+Expected output : 9
+
+************************
+
+Test Case 7 
+------------------------
+Out of range
+Input : "2,9000"
+Expected output : 2
+
+************************
+
+Test Case 8 
+------------------------
+Negative Numbers
+Input : "2,-3"
+Expected output : Exception negatives not allowed: -3
+
+************************
+
+Test Case 8 
+------------------------
+Multiple Negative Numbers
+Input : "2,-3,-9"
+Expected output : Exception negatives not allowed: -3,-9
